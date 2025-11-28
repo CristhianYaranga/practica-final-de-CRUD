@@ -1,0 +1,41 @@
+# Ignorar entornos virtuales
+venv/
+env/
+ENV/
+.venv
+
+# Ignorar archivos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Ignorar archivos de configuración local
+.env
+*.env
+.env.local
+
+# Ignorar archivos de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Ignorar archivos de logs
+*.log
+
+# Ignorar archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de base de datos local
+*.db
+*.sqlite
+*.sqlite3
+
+# Ignorar archivos de distribución
+dist/
+build/
+*.egg-info/
